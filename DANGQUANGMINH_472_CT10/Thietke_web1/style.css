@@ -1,0 +1,28 @@
+.banner
+    {
+        background-image: url("https://golmart.com.vn/wp-content/uploads/2020/04/toc-do-mang-bao-nhieu-la-nhanh.jpg");
+        height: 100px;
+        width: 900px;
+    }
+.left
+    {
+        background: sandybrown;
+        float: left;
+        height: 500px;
+        width: 150px;
+    }
+.right
+    {
+        background:rgb(red, green, rgb(241, 241, 245));
+        float: left;
+        height: 500px;
+        width: 750px;
+    }
+.footer
+    {
+        background: yellow;
+        float: inline-end;
+        height: 150px;
+        width: 200px;
+    }     }
+

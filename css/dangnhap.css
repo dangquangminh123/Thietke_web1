@@ -1,0 +1,127 @@
+body{
+    background: url(../image/5.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+}
+.menu{
+    width: 1365 px;
+    height: 50px;
+    background: repeating-linear-gradient(black, white);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: -10px;
+    padding: 0px;
+}
+.menu ul{
+    margin: 0px;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    display: block;
+    border-right: 1px solid darkgrey;
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    color: aqua;
+}
+.menu ul li a:hover{
+    background: whitesmoke;
+}
+.banner{
+    background: black;
+    padding: 0px 20px 0px 20px;
+    width: 1325px;
+    margin-left: -10px;
+}
+.banner1{
+    float: left;
+    margin: 0px 20px 0px 20px;
+}
+.show{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px 40px 0px 20px;
+    float: left;
+}
+.wrapper{
+    width: 1200px;
+    -webkit-animation: slide 8s infinite;
+}
+.slide{
+    float: left;
+    height: 300px;
+    width: 400px;
+}
+@-webkit-keyframes slide{
+    20% {margin-left: 0px;}
+    30% {margin-left: -400px;}
+    50% {margin-left: -400px;}
+    60% {margin-left: -800px;}
+    80% {margin-left: -800px;}
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+    margin-bottom: 10px;
+}
+.tong form .o{
+    width: 50%; 
+    margin: 10px 400px 10px 480px; 
+}
+.tong form .o input{
+    width: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: transparent;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tong form .o input::placeholder{
+    color:aqua;
+}
+.tong form .q{
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 8px 10px;
+    border-radius: 6px;
+    width: 120px;
+    margin-left: 580px;
+    text-align: center;
+}
+.tong form .q a{
+    font-size: 18px;
+    font-weight: bold;
+    color: aqua;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bot{
+    width: 1365px;
+    height: 150px;
+    background-color: black;
+    margin-top: 0px;
+    font-size: 16px;
+    color: white;
+    margin-left: -10px;
+}
+.bot1{
+    float: left;
+    margin-top: 40px;
+}
+.bot2{
+    padding: 40px;
+}

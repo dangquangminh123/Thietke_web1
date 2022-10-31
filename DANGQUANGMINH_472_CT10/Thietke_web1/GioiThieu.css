@@ -1,0 +1,34 @@
+ .banner{
+background-color: rgb(240, 240, 248);
+    padding-left: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(64, 248, 8);
+ }
+
+ .main {
+     float: left;
+ }
+
+ .main_left {
+     float: left;
+ }
+ .main_right {
+     font-size: 28px;
+     float: left;
+     color: rgb(255, 13, 65);
+     background-color: rgb(243, 247, 3);
+ }
+
+ .footer {
+     float: left;
+ }
+
+ .hobby {
+     float: left;
+ }
+
+ .hobby:hover{
+    transform: translateY(-25px);
+    box-shadow: 0 40px 70px rgba(255, 46, 9, 0.973);
+ }

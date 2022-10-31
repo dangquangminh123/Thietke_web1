@@ -1,0 +1,167 @@
+body{
+    background: url(../image/5.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+}
+.menu{
+    width: 1365 px;
+    height: 50px;
+    background: repeating-linear-gradient(black, white);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: -10px;
+    padding: 0px;
+}
+.menu ul{
+    margin: 0px;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    display: block;
+    border-right: 1px solid darkgrey;
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    color: aqua;
+}
+.menu ul li a:hover{
+    background: whitesmoke;
+}
+.banner{
+    background: black;
+    padding: 0px 20px 0px 20px;
+    width: 1325px;
+    margin-left: -10px;
+}
+.banner1{
+    float: left;
+    margin: 0px 20px 0px 20px;
+}
+.show{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px 40px 0px 20px;
+    float: left;
+}
+.wrapper{
+    width: 1200px;
+    -webkit-animation: slide 8s infinite;
+}
+.slide{
+    float: left;
+    height: 300px;
+    width: 400px;
+}
+@-webkit-keyframes slide{
+    20% {margin-left: 0px;}
+    30% {margin-left: -400px;}
+    50% {margin-left: -400px;}
+    60% {margin-left: -800px;}
+    80% {margin-left: -800px;}
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+}
+.select1{
+    padding: 10px 20px 10px 50px;
+    float: left;
+}
+.select2{
+    padding: 10px 20px 10px 20px;
+}
+.select3{
+    padding: 0px 0px 10px 50px;
+    margin-top: -40px;
+}
+h3{
+    font-size: 14px;
+    color:aqua;
+    padding: 10px 0px 10px 50px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+.san_pham{
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 5px 0px 5px;
+    float: left;
+    text-align: center;
+    display:block;
+}
+.footer{
+    height: 580px;
+}
+.card{
+    width: 270px;
+    height: 320px;
+    margin: 20px;
+    padding: 0px;
+    background: #2a2b2f;
+    border: 2px solid #1e1f23;
+    border-radius: 15px;
+    transition: 0.5s;
+    float: left;
+}
+.card:hover{
+    transform: translateY(-25px);
+    box-shadow: 0 40px 70px rgba(0,0,0,0.5);
+}
+.san_pham a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.bot{
+    width: 1365px;
+    height: 150px;
+    background-color: black;
+    margin-top: 150px;
+    font-size: 16px;
+    color: white;
+    margin-left: -10px;
+}
+.card:nth-child(1) .san_pham a{
+    background: black;
+}.card:nth-child(2) .san_pham a{
+    background: grey;
+}.card:nth-child(3) .san_pham a{
+    background: red;
+}.card:nth-child(4) .san_pham a{
+    background: blue;
+}.card:nth-child(5) .san_pham a{
+    background: orangered;
+}.card:nth-child(6) .san_pham a{
+    background: green;
+}.card:nth-child(7) .san_pham a{
+    background: purple;
+}.card:nth-child(8) .san_pham a{
+    background: cyan;
+}
+.bot1{
+    float: left;
+    margin-top: 40px;
+}
+.bot2{
+    padding: 40px;
+}
